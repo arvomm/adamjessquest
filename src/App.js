@@ -311,7 +311,7 @@ function Onlythebeginning() {
   return(
     <div>
     <div>
-    Follow your heart and you shall find what is most precious. Go to [X] corner and say the words: 'take us to paradise'.
+    Follow your heart and you shall find what is most precious. Find your sherper and say the words: 'take us to paradise'.
     </div>
     </div>
   );
