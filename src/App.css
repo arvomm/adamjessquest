@@ -2,20 +2,11 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+/* Custom header */
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -26,6 +17,53 @@
 
 .App-link {
   color: #61dafb;
+}
+
+/* Custom main */
+
+.main-section {
+  background-color: #282c34;
+  color: rgb(206, 167, 113);
+    min-height: 100vh;
+}
+
+/* Custom button and field */
+
+input[type="text"], button {
+  margin-left: 5px;
+  border: none;
+  background-color: #282c34;
+  /* color: rgb(116, 77, 23); */
+  color: rgb(186, 147, 93);
+}
+
+input[type="text"]::placeholder {
+  color: white;
+}
+
+.submit-button {
+  padding: 5px 15px; /* Add horizontal padding to maintain a good aspect ratio */
+  color: rgb(203, 205, 221);
+  background-color: #333948;
+  cursor: pointer;
+  border-radius: 50px; /* Make the button round */
+}
+
+.submit-button:hover {
+  background-color: #4b5369; 
+}
+
+/* Animation */
+
+.App-logo {
+  height: 4vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
 }
 
 @keyframes App-logo-spin {
