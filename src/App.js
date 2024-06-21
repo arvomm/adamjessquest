@@ -35,7 +35,6 @@ function Toohard() {
   <div>
     <div>
     It seems like you need an easier challenge to get you started. Recreate this:
-[pic of poncho]
     </div>
     <img src={poncho} style={{ width: '100%' }} />
   </div>
