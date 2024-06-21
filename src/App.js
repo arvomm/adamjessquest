@@ -225,6 +225,18 @@ function Familiarfaces3() {
     </div>
   );
 }
+
+// buxton
+function Shopping() {
+  return(
+    <div>
+    <div>
+Welcome to Buxton!! You have up to 1.5 hours to exchange monies for goods! Go to charity shops and find jewels for lady Smith and a bow tie for lord Binks.
+    </div>
+   <img src={logo} className="App-logo" alt="logo" />
+    </div>
+  );
+}
 function Pavilionolympics() {
   return(
     <div>
@@ -364,6 +376,8 @@ function App() {
       setSection(<Familiarfaces2 />);
     } else if (userInput === 'familiarfaces3') {
       setSection(<Familiarfaces3 />);
+    } else if (userInput === 'shopping') {
+      setSection(<Shopping />);
     } else if (userInput === 'pavilionolympics') {
       setSection(<Pavilionolympics />);
     } else if (userInput === 'enchanedsenses') {
