@@ -115,6 +115,118 @@ function Gamesover() {
     </div>
   );
 }
+function Puzzlemasters() {
+  return(
+    <div>
+    <div>
+    Go to a new carriage and stand in the middle of it. Play the Game of Loudness. Take turns saying “I love you” the only rule is that you mustn’t wait too long to reply and that you must say it louder the person before you. Whoever loses will regret not having been louder.     <br />
+   </div>
+    <img src={train} className="App-logo" alt="train" />
+    </div>
+  );
+}
+function Soreloser() {
+  return(
+    <div>
+    <div>
+    The loser must now has 10 minutes to find the food/drinks trolley on the train, buy anything from them and at the end they must say  "I love you" instead of "thank you". Sneakily record the audio on your phone and send proof. If there is no trolley, ask a question to the ticket inspector, then proceed to state your love. <br />
+   </div>
+    <img src={train} className="App-logo" alt="train" />
+    </div>
+  );
+}
+function Thebravecanrest() {
+  return(
+    <div>
+    <div>
+    Rest, friends. Go back to your puzzle.  Send 5 minute updates to the oracle.    </div>
+    <img src={train} className="App-logo" alt="train" />
+    </div>
+  );
+}
+
+
+
+function Hungry() {
+  return(
+    <div>
+    <div>
+    Go to the local Sainsbury's. Spend exactly £13.01 and consume at leisure. Every penny off will be a tear that your cheek shall feel. Share a picture of the total with the Oracle.
+   </div>
+   <img src={logo} className="App-logo" alt="logo" />
+    </div>
+  );
+}
+function Socialpeople() {
+  return(
+    <div>
+    <div>
+    Take the cringiest photo mankind has seen, with someone from the staff and by the closest physical map of the area, visible in the picture (get your guide to photograph you). If there are no maps near you, the Oracle might make an exception.   </div>
+   <img src={logo} className="App-logo" alt="logo" />
+    </div>
+  );
+}
+function Familiarfaces() {
+  return(
+    <div>
+    <div>
+[]
+     </div>
+   <img src={logo} className="App-logo" alt="logo" />
+    </div>
+  );
+}
+function Pavilionolympics() {
+  return(
+    <div>
+    <div>
+    Your quest is about to offer you many consecutive challenges. Try your best and destiny will reward you.
+    </div>
+   <img src={logo} className="App-logo" alt="logo" />
+    </div>
+  );
+}
+function Enhancedsenses() {
+  return(
+    <div>
+    <div>
+    You have 10 min to compose a song, record it, and send it to the oracle. The theme “stags and hens”. 
+    </div>
+   <img src={logo} className="App-logo" alt="logo" />
+    </div>
+  );
+}
+function Masterfinders() {
+  return(
+    <div>
+    <div>
+    You have 5 minutes to send pictures of 5 different blue cars around. Share with the oracle
+        </div>
+   <img src={logo} className="App-logo" alt="logo" />
+    </div>
+  );
+}
+
+function Mstersoftime() {
+  return(
+    <div>
+    <div>
+    Order chronologically.
+        </div>
+   <img src={logo} className="App-logo" alt="logo" />
+    </div>
+  );
+}
+function Onlythebeginning() {
+  return(
+    <div>
+    <div>
+    Follow your heart and you shall find what is most precious. Go to [X] corner and say the words: 'take us to paradise'.
+        </div>
+        <img src={girl} style={{ width: '100%' }} />
+    </div>
+  );
+}
 
 
 
@@ -147,14 +259,26 @@ function App() {
       setSection(<Cutetogether />);
     } else if (userInput === 'gamesover') {
       setSection(<Gamesover />);
-    } else if (userInput === 'toohard') {
-      setSection(<toohard />);
-    } else if (userInput === 'toohard') {
-      setSection(<toohard />);
-    } else if (userInput === 'toohard') {
-      setSection(<toohard />);
-    } else if (userInput === 'toohard') {
-      setSection(<toohard />);
+    } else if (userInput === 'puzzlemasters') {
+      setSection(<Puzzlemasters />);
+    } else if (userInput === 'soreloser') {
+      setSection(<Soreloser />);
+    } else if (userInput === 'thebravecanrest') {
+      setSection(<Thebravecanrest />);
+    } else if (userInput === 'socialpeople') {
+      setSection(<Socialpeople />);
+    } else if (userInput === 'familiarfaces') {
+      setSection(<Familiarfaces />);
+    } else if (userInput === 'pavilionolympics') {
+      setSection(<Pavilionolympics />);
+    } else if (userInput === 'enchanedsenses') {
+      setSection(<Enhancedsenses />);
+    } else if (userInput === 'masterfinders') {
+      setSection(<Masterfinders />);
+    } else if (userInput === 'mastersoftime') {
+      setSection(<Mstersoftime />);
+    } else if (userInput === 'onlythebeginning') {
+      setSection(<Onlythebeginning />);
     } else {
       setSection(<DefaultSection />);
     }
