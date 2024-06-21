@@ -10,26 +10,26 @@ import eag1 from './images/eag1.JPG';
 import eag2 from './images/eag2.JPG';
 
 
-// import four from './images/puzzle/four.PNG';
-// import letter_t from './images/puzzle/letter_t.jpg';
-// import n from './images/puzzle/n.jpg';
-// import v from './images/puzzle/v.jpg';
-// import letter_a from './images/puzzle/letter_a.jpg';
-// import m from './images/puzzle/m.jpg';
-// import O from './images/puzzle/O.jpg';
-// import s from './images/puzzle/s.jpg';
-// import r from './images/puzzle/r.jpg';
-// import e from './images/puzzle/e.jpg';
-// import T from './images/puzzle/T.jpg';
-// import letter_o from './images/puzzle/letter_o.jpg';
-// import zero from './images/puzzle/zero.jpg';
-// import g from './images/puzzle/g.jpg';
-// import plus from './images/puzzle/plus.jpg';
-// import i from './images/puzzle/i.jpg';
-// import A from './images/puzzle/A.jpg';
-// import l from './images/puzzle/l.jpg';
-// import y from './images/puzzle/y.jpg';
-// import h from './images/puzzle/h.jpg';
+import four from './images/puzzle/four.PNG';
+import letter_t from './images/puzzle/letter_t.jpg';
+import n from './images/puzzle/n.jpg';
+import v from './images/puzzle/v.jpg';
+import letter_a from './images/puzzle/letter_a.jpg';
+import m from './images/puzzle/m.jpg';
+import O from './images/puzzle/O.jpg';
+import s from './images/puzzle/s.jpg';
+import r from './images/puzzle/r.jpg';
+import e from './images/puzzle/e.jpg';
+import T from './images/puzzle/T.jpg';
+import letter_o from './images/puzzle/letter_o.jpg';
+import zero from './images/puzzle/zero.jpg';
+import g from './images/puzzle/g.jpg';
+import plus from './images/puzzle/plus.jpg';
+import i from './images/puzzle/i.jpg';
+import A from './images/puzzle/A.jpg';
+import l from './images/puzzle/l.jpg';
+import y from './images/puzzle/y.jpg';
+import h from './images/puzzle/h.jpg';
 
 
 // ------------------------------------------------
@@ -259,7 +259,7 @@ function Masterfinders() {
 function Mstersoftime() {
   return(
     <div>
-    {/* <div>
+    <div>
     Order chronologically. 4tnvamOsreTo0g+iAlyh
         </div>
         4
@@ -302,7 +302,7 @@ v
         <img src={y} style={{ width: '100%' }} />
         h
         <img src={h} style={{ width: '100%' }} />
-         */}
+        
     </div>
   );
 }
