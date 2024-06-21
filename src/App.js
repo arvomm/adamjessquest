@@ -260,7 +260,8 @@ function Mstersoftime() {
   return(
     <div>
     <div>
-    Order chronologically. 4tnvamOsreTo0g+iAlyh
+    Order chronologically. 
+    {/* 4tnvamOsreTo0g+iAlyh */}
         </div>
         4
         <img src={four} style={{ width: '100%' }} />
