@@ -6,6 +6,9 @@ import logo from './images/logo.png';
 import train from './images/train.png';
 import girl from './images/girl.png';
 import poncho from './images/poncho.png';
+import eag1 from './images/eag1.JPG';
+import eag2 from './images/eag2.JPG';
+
 
 // import four from './images/puzzle/four.PNG';
 // import letter_t from './images/puzzle/letter_t.jpg';
@@ -193,8 +196,31 @@ function Familiarfaces() {
   return(
     <div>
     <div>
-[]
+    Name 15 people in this picture, you have 5 minutes. No matter what, after 5 minutes type 'familiarfaces2'
      </div>
+     <img src={eag1} style={{ width: '100%' }} />
+   <img src={logo} className="App-logo" alt="logo" />
+    </div>
+  );
+}
+function Familiarfaces2() {
+  return(
+    <div>
+    <div>
+    Find Wally[Arvo], you have 1 minute.  No matter what, after 1 minute type 'familiarfaces3'
+     </div>
+     <img src={eag1} style={{ width: '100%' }} />
+   <img src={logo} className="App-logo" alt="logo" />
+    </div>
+  );
+}
+function Familiarfaces3() {
+  return(
+    <div>
+    <div>
+    Find Wally[Arvo], take your time. Share with the oracle.
+     </div>
+     <img src={eag2} style={{ width: '100%' }} />
    <img src={logo} className="App-logo" alt="logo" />
     </div>
   );
@@ -333,6 +359,10 @@ function App() {
       setSection(<Socialpeople />);
     } else if (userInput === 'familiarfaces') {
       setSection(<Familiarfaces />);
+    } else if (userInput === 'familiarfaces2') {
+      setSection(<Familiarfaces2 />);
+    } else if (userInput === 'familiarfaces3') {
+      setSection(<Familiarfaces3 />);
     } else if (userInput === 'pavilionolympics') {
       setSection(<Pavilionolympics />);
     } else if (userInput === 'enchanedsenses') {
