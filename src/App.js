@@ -6,6 +6,29 @@ import logo from './images/logo.png';
 import train from './images/train.png';
 import girl from './images/girl.png';
 import poncho from './images/poncho.png';
+
+// import four from './images/puzzle/four.PNG';
+// import letter_t from './images/puzzle/letter_t.jpg';
+// import n from './images/puzzle/n.jpg';
+// import v from './images/puzzle/v.jpg';
+// import letter_a from './images/puzzle/letter_a.jpg';
+// import m from './images/puzzle/m.jpg';
+// import O from './images/puzzle/O.jpg';
+// import s from './images/puzzle/s.jpg';
+// import r from './images/puzzle/r.jpg';
+// import e from './images/puzzle/e.jpg';
+// import T from './images/puzzle/T.jpg';
+// import letter_o from './images/puzzle/letter_o.jpg';
+// import zero from './images/puzzle/zero.jpg';
+// import g from './images/puzzle/g.jpg';
+// import plus from './images/puzzle/plus.jpg';
+// import i from './images/puzzle/i.jpg';
+// import A from './images/puzzle/A.jpg';
+// import l from './images/puzzle/l.jpg';
+// import y from './images/puzzle/y.jpg';
+// import h from './images/puzzle/h.jpg';
+
+
 // ------------------------------------------------
 // sections
 
@@ -210,10 +233,50 @@ function Masterfinders() {
 function Mstersoftime() {
   return(
     <div>
-    <div>
-    Order chronologically.
+    {/* <div>
+    Order chronologically. 4tnvamOsreTo0g+iAlyh
         </div>
-   <img src={logo} className="App-logo" alt="logo" />
+        4
+        <img src={four} style={{ width: '100%' }} />
+        t
+        <img src={letter_t} style={{ width: '100%' }} />
+        n
+        <img src={n} style={{ width: '100%' }} />
+v
+        <img src={v} style={{ width: '100%' }} />
+        a
+        <img src={letter_a} style={{ width: '100%' }} />
+        m
+        <img src={m} style={{ width: '100%' }} />
+        O
+        <img src={O} style={{ width: '100%' }} />
+        s
+        <img src={s} style={{ width: '100%' }} />
+        r
+        <img src={r} style={{ width: '100%' }} />
+        e
+        <img src={e} style={{ width: '100%' }} />
+        T
+        <img src={T} style={{ width: '100%' }} />
+        o
+        <img src={letter_o} style={{ width: '100%' }} />
+        0
+        <img src={zero} style={{ width: '100%' }} />
+        g
+        <img src={g} style={{ width: '100%' }} />
+        +
+        <img src={plus} style={{ width: '100%' }} />
+        i
+        <img src={i} style={{ width: '100%' }} />
+        A
+        <img src={A} style={{ width: '100%' }} />
+        l
+        <img src={l} style={{ width: '100%' }} />
+        y
+        <img src={y} style={{ width: '100%' }} />
+        h
+        <img src={h} style={{ width: '100%' }} />
+         */}
     </div>
   );
 }
@@ -222,8 +285,7 @@ function Onlythebeginning() {
     <div>
     <div>
     Follow your heart and you shall find what is most precious. Go to [X] corner and say the words: 'take us to paradise'.
-        </div>
-        <img src={girl} style={{ width: '100%' }} />
+    </div>
     </div>
   );
 }
@@ -265,6 +327,8 @@ function App() {
       setSection(<Soreloser />);
     } else if (userInput === 'thebravecanrest') {
       setSection(<Thebravecanrest />);
+    } else if (userInput === 'hungry') {
+      setSection(<Hungry />);
     } else if (userInput === 'socialpeople') {
       setSection(<Socialpeople />);
     } else if (userInput === 'familiarfaces') {
